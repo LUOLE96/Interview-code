@@ -3,7 +3,7 @@
 int main(void)
 {
 	int a,b,c,m,t;
-	printf("请输入两个数：\n");
+	printf("璇疯緭鍏ヤ袱涓暟锛歕n");
 	scanf("%d%d",&a,&b);
 	if(a < b){
 		t = a;
@@ -17,7 +17,7 @@ int main(void)
 		b = c;
 		c = a % b;
 	}
-	printf("最大公约数是：\n%d\n",b);
-	printf("最小公约数是：\n%d\n",m/b);
+	printf("鏈�澶у叕绾︽暟鏄細\n%d\n",b);
+	printf("鏈�灏忓叕绾︽暟鏄細\n%d\n",m/b);
 	
  } 

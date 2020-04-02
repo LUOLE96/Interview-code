@@ -1,16 +1,16 @@
 #include <stdio.h>
-//»¹Î´µ÷Ê½Íê 
+//è¿˜æœªè°ƒå¼å®Œ 
 #define ARRSIZE 8
 
 int main(void)
 {
 	int arr[ARRSIZE] = {8,4,1,9,3,6,2,5},i,j,temp;
-	 int min;//±£´æ×îĞ¡ÊıµÄÏÂ±ê
-	 for(i = 0;i < ARRSIZE - 1;i++){//¿ØÖÆÑ­»·ÌËÊı 
+	 int min;//ä¿å­˜æœ€å°æ•°çš„ä¸‹æ ‡
+	 for(i = 0;i < ARRSIZE - 1;i++){//æ§åˆ¶å¾ªç¯è¶Ÿæ•° 
 	 	min = i;
 	 	for(j = i + 1;j < ARRSIZE;j++){
-	 		if(arr[j] < arr[min]){//ÕÒµ½¸üĞ¡µÄÊı 
-	 			min = j;//ĞŞ¸Äµ±Ç°×îĞ¡ÊıµÄĞ¡±êÎªĞÂÏÂ±ê 
+	 		if(arr[j] < arr[min]){//æ‰¾åˆ°æ›´å°çš„æ•° 
+	 			min = j;//ä¿®æ”¹å½“å‰æœ€å°æ•°çš„å°æ ‡ä¸ºæ–°ä¸‹æ ‡ 
 			 }
 			 
 			 if(min != i){

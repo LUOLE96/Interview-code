@@ -5,7 +5,7 @@
 int main(void)
 {
 	int arr[ARRSIZE] = {8,4,1,9,3,6,2,5},i,j,temp;
-	for(i = 1;i < ARRSIZE;i++){//È·¶¨ÌËÊý
+	for(i = 1;i < ARRSIZE;i++){//ç¡®å®šè¶Ÿæ•°
 		for(j = 0;j < ARRSIZE - i;j++){
 			if(arr[j] > arr[j + 1]){
 				temp = arr[j];
@@ -13,7 +13,6 @@ int main(void)
 				arr[j + 1] = temp; 
 			}
 		} 
-		
 	}
 	for(i = 0;i < ARRSIZE;i++)
 		printf("%d\t",arr[i]);

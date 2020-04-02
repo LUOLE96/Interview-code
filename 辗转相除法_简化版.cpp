@@ -8,11 +8,11 @@ int gcd(int a,int b)
 int main(void)
 {
 	int a,b;
-	printf("ÇëÊäÈëÁ½¸öÊı£º\n");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°ï¼š\n");
 	scanf("%d%d",&a,&b);
 	
 	a = gcd(a,b);
-	printf("×î´ó¹«Ô¼ÊıÊÇ:%d\n",a);
+	printf("æœ€å¤§å…¬çº¦æ•°æ˜¯:%d\n",a);
 	
 	return 0;
 }
